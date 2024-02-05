@@ -3,8 +3,8 @@ import sys
 import json_to_csv
 
 
-# python parser.py ***REMOVED***
-# python main.py ***REMOVED***
+# python parser.py REMOVED
+# python main.py REMOVED
 
 # Read the json file and convert to csv
 name = sys.argv[1]
