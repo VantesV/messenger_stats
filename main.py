@@ -7,8 +7,9 @@ import json_to_csv
 # python main.py REMOVED
 
 # Read the json file and convert to csv
-name = sys.argv[1]
-json_to_csv.convert(name)
+convo_name = sys.argv[1]
+# RandysBackyard
+json_to_csv.convert(convo_name)
 
 # Total message count per sender
 
