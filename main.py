@@ -1,6 +1,6 @@
 import sys
 
-import json_to_csv
+import json_to_csv, message_counter
 
 
 # python parser.py REMOVED
@@ -12,7 +12,7 @@ convo_name = sys.argv[1]
 json_to_csv.convert(convo_name)
 
 # Total message count per sender
-
+message_counter.msg_count(convo_name)
 
 # Total word count per sender
 
